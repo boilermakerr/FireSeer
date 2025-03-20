@@ -11,7 +11,7 @@ Now the floor classifacation, unit location and grid prediction code is ready !!
 ## The deployment method of Nvidia Orin Nano
 
 Model can be deployed by tensorRT_Pro-YOLOv8 framework https://github.com/Melody-Zhou/tensorRT_Pro-YOLOv8
-or its base repo https://github.com/shouxieai/tensorRT_Pro
+
 
 1. Install environmental dependency tensorRT_Pro.
 2. Convert the pytorch pt into onnx and deploy follow the repo tutorial.
