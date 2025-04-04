@@ -15,3 +15,5 @@ Model can be deployed by tensorRT_Pro-YOLOv8 framework https://github.com/Melody
 
 1. Install environmental dependency tensorRT_Pro.
 2. Convert the pytorch pt into onnx and deploy follow the repo tutorial.
+
+### We use wrong manuscript version code when make the grid prediction video, so there is one line left out. 
