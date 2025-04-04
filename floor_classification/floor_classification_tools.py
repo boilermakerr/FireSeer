@@ -15,6 +15,6 @@ def get_average_box_area_delect_default_box(detections,threshold=0.3):
 
 
 def is_same_row(cell1, cell2,threshold=0.5):
-    x1_diff = abs(cell1[1] - cell2[1])
+    y1_diff = abs(cell1[1] - cell2[1])
     thres=threshold*max(abs(cell1[3]-cell1[1]),abs(cell2[3]-cell2[1]))
-    return x1_diff < thres
+    return y1_diff < thres
