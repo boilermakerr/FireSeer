@@ -29,6 +29,7 @@ def unit_location(floors,limit_number=0):
             for cell in layer:
                 if is_same_column(base_cell, cell):
                     layer_column_cells.append(cell)
+                    break
             if layer_column_cells:
                 column_cells[layer_idx_d] = layer_column_cells
                 current_cols_containers["{}-{}".format(layer_idx+1,col_num)] = layer_column_cells
