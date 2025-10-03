@@ -1,7 +1,7 @@
-from grid_trans_tools import find_median_minimizing_sum_of_absolute_deviations,remove_outliers
+from unit_trans_tools import find_median_minimizing_sum_of_absolute_deviations,remove_outliers
 
 
-def grid_prediction(data):
+def unit_prediction(data):
     max_rows=0
     max_cols=len(data)
     for col in data:
